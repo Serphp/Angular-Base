@@ -1,0 +1,36 @@
+.footer {
+    padding: 10px 0;
+    background-color: #343a40;
+  }
+  
+  .footer a, .footer p {
+    color: #ffffff;
+    padding: 4px 0;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .footer .social-links {
+    margin-bottom: -5px;
+  }
+  
+  .footer .social-links a {
+    padding: 0 8px;
+    font-size: 17px;
+  }
+  
+  .footer .social-links a:after {
+    content: '|';
+    padding-left: 17px;
+    position: relative;
+    top: -1px;
+    opacity: .4;
+  }
+  
+  .footer .social-links a:first-child {
+    padding: 0;
+  }
+  
+  .footer .social-links a:last-child:after {
+    display: none;
+  }
