@@ -1,4 +1,4 @@
-const firebaseConfig = {
+export const firebaseConfig = {
     apiKey: "AIzaSyB7WbedVpMk1dBnjpttkPn1vi-cid1Z9rg",
     authDomain: "serph-f9c7e.firebaseapp.com",
     databaseURL: "https://serph-f9c7e-default-rtdb.firebaseio.com",
@@ -9,7 +9,6 @@ const firebaseConfig = {
     measurementId: "G-TMSG2HY8GE"
   };
 
-export const environment = {
-  production: false,
-  firebaseConfig
-};
+// export const environment = {
+//   firebaseConfig
+// };
