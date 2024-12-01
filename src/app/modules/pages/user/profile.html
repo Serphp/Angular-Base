@@ -1,0 +1,15 @@
+<div class="espacio"></div>
+<h1> Hola Profile  </h1>
+
+<button class="btn btn-primary btn-block" (click)="signOut()">Logout</button>
+
+<div *ngIf="authService.isAuthenticated()">
+    <!-- Contenido visible cuando el usuario está autenticado -->
+    <p>Bienvenido, .</p>
+  </div>
+  
+  <div *ngIf="!authService.isAuthenticated()">
+    <!-- Contenido visible cuando el usuario no está autenticado -->
+    <p>Inicia sesión para acceder a contenido exclusivo.</p>
+  </div>
+  

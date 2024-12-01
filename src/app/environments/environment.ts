@@ -9,6 +9,16 @@ export const firebaseConfig = {
     measurementId: "G-TMSG2HY8GE"
   };
 
-// export const environment = {
-//   firebaseConfig
-// };
+export const environment = {
+  firebase: {
+    projectId: 'serph-f9c7e',
+    appId: '1:937690296061:web:84f9a2adda111ed8481894',
+    databaseURL: 'https://serph-f9c7e-default-rtdb.firebaseio.com',
+    storageBucket: 'serph-f9c7e.appspot.com',
+    apiKey: 'AIzaSyB7WbedVpMk1dBnjpttkPn1vi-cid1Z9rg',
+    authDomain: 'serph-f9c7e.firebaseapp.com',
+    messagingSenderId: '937690296061',
+    measurementId: 'G-TMSG2HY8GE',
+  },
+  firebaseConfig,
+};

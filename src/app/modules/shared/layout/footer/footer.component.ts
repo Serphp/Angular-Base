@@ -17,6 +17,5 @@ export class FooterComponent {
 
     ngOnInit(): void { 
         this.version = this.versionService.getVersion();
-        console.log('Working footer');
     }
 }
